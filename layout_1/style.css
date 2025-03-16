@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 25%;
+  background-color: rgb(248, 50, 234);
+  justify-content: center;
+  display: flex;
+}
+
+main {
+  height: 50%;
+  background-color: rgb(242, 62, 191);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+  
+
+footer {
+  height: 25%;
+  background-color: rgb(243, 18, 112);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+h2 {
+  font-size: xx-large;
+}
